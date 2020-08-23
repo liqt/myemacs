@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: idoc
+# key: idoc
+# --
+/**
+*  ${1:name}
+*
+* @param
+* @return
+* @since ${2:50707}
+*/

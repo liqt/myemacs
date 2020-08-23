@@ -1,0 +1,128 @@
+cd JnityFbxImporter/
+git st .
+git add CMakeLists.txt
+cd ..
+cd ..
+git  st .
+git add CMakeLists.txt
+cd cmake
+git st .
+git add -u .
+cd ..
+git add project/CMakeLists.txt
+cd source/
+git st .
+git add -u .
+git add external/stackWalker/CMakeLists.txt
+cd ..
+git st .
+git add gen_proj.py 
+git ci -m'[reviewed by liqt] pass jnity debug build'
+git pull
+git push
+ls
+git st .
+git st .
+git pull
+git st .
+git st .
+git add -u .
+git st .
+git st .
+git add bd.py
+git ci -m'[reviewed by liqt] add auto get apk package id to request dyn res config'
+git push
+cd ..
+ccd ..
+git st .
+git pull
+git checkout -b fixseed-liqt-20200303
+exit
+cd ..
+cd ..
+cd ..
+cd ..
+git pull
+git st .
+git add -u .
+cd ..
+cd tools/
+cd binding/
+ls
+cd tolua/
+git st .
+git add -u .
+git ci -m'[reviewed by liqt] update lua binding interface'
+git push
+cd ..
+cd ..
+cd ..
+cd source/
+git st .
+git add -u .
+git ci -m'[reviewed by liqt] clang format'
+git push
+git st .
+git pull
+git add -u .
+git ci -m'[reviewed by liqt] update ManagerContex interface pass compile err'
+git push
+cd ..
+cd project/reactnative/
+git pull
+git st .
+git st .
+git st .
+git pull
+cd ..
+git pull
+cd ..
+cd source/
+cd framework/
+cd spine/
+ls
+cd spine36/
+ls
+git pull
+README.MD
+git pull
+git st .
+git st .
+ls
+git add README.MD
+git ci -m'#doc: add build help readme for 50909 [reviewed by liqt]'
+git push
+git st .
+git pull
+git pull
+git pull
+git st .
+cd source/
+cd framework/
+cd spine
+git st .
+git st .
+git pull
+git add -u .
+git ci -m'#doc add spine 接口说明 [reviewed by liqt]'
+git push
+git pull
+cd ..
+cd .
+cd ..
+cd module/
+ls
+git clone http://192.168.10.32/root/fishunion.git
+ls
+cd ..
+cd proj.android/build
+git st .
+git add encrypt.py
+git ci -m'#tools fix luajit bytecode other file [reviewed by liqt]' 
+git push
+git pull
+cd org/
+ls
+mkdir doc
+ls
+cd doc/

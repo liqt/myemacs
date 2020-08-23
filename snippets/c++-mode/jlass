@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: JL_ASSERT_MSG
+# key: jaa
+# --
+JL_ASSERT_MSG(${1:false}, "ERROR: ${2:value} load fail");
+return false;

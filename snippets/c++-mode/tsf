@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: JL_TRANSFER(_);//
+# key: jlf
+# --
+JL_TRANSFER(${1:value}); // ${2:MinMaxCurve}
